@@ -5,11 +5,7 @@ import { conditionalExpression } from '@babel/types';
 
 const Game= (props) => {
     let classList = ''
-    let types = ["Game"]
-    // conditional styling!
-    if (types.includes(props.type)) {
-        classList += `${props.type}`
-    } 
+    classList += `${props.type}`
     return(
         <div className={classList}>
             <img src={props.img}></img>

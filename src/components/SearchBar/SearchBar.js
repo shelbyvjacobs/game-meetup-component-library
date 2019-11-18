@@ -6,7 +6,6 @@ import { conditionalExpression } from '@babel/types';
 
 const SearchBar= (props) => {
     let classList = ''
-    // let types = ["searchBar"]
     classList += `${props.type}`
     return (
         <div className={classList} >
