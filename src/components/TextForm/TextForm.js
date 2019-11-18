@@ -4,8 +4,6 @@ import { conditionalExpression } from '@babel/types';
 
 const TextForm= (props) => {
     let classList = ''
-    let types = ['email']
-    // conditional styling
     classList += `form`
 
     return (

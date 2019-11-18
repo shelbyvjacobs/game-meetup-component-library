@@ -5,7 +5,6 @@ import { conditionalExpression } from '@babel/types';
 const Select= (props) => {
     let classList = ''
     let types = ['select']
-    // conditional styling
     if (types.includes(props.type)) {
         classList += ` input-${props.type}`
     } 
@@ -18,8 +17,6 @@ const Select= (props) => {
     if (props.largeSelect){
         classList += ` largeSelect`
     }
-
-    // functionality
 
     return (
         <select name={props.type} className={classList} onChange={props.onChange}>
