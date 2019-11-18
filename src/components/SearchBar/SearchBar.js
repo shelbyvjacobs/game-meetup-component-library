@@ -13,12 +13,12 @@ const SearchBar= (props) => {
             <form>
                 <div>
                     <p>Search by Game</p>
-                    <input type="text"></input>
+                    <input type="text"></input><br/>
                     <input type="submit"></input>
                 </div>
                 <div>
                     <p>Search by Date</p>
-                    <input type="text"></input>
+                    <input type="text"></input><br/>
                     <input type="submit"></input>
                 </div>
             </form>
