@@ -18,9 +18,6 @@ const Select= (props) => {
     if (props.largeSelect){
         classList += ` largeSelect`
     }
-    if (props.color == 'selectGrey'){
-        classList += ` selectGrey`
-    }
 
     // functionality
 
