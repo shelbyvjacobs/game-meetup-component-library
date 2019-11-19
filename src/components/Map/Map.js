@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+// using hooks
 import ReactMapGL, {Marker} from "react-map-gl";
 // import data up here
 // ex: import * as location from "./meetup.json" or whatever
@@ -18,6 +19,7 @@ export default function Map() {
             <ReactMapGL 
                 {...viewport} 
                 mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
+                // the token is in the .env.local file; this is included in .gitignore, so the token is hidden in the repo
                 mapStyle="mapbox://styles/board-game-meetup/ck363rzy91i821cmuawnug3v4"
                 onViewportChange={(viewport) => {setViewport(viewport)}}
             >
@@ -34,3 +36,5 @@ export default function Map() {
         </div> 
     )
 } 
+
+// https://www.youtube.com/watch?v=JJatzkPcmoI
