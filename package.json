@@ -33,5 +33,17 @@
   },
   "devDependencies": {
     "@storybook/react": "^5.2.6"
-  }
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shelbyvjacobs/game-meetup-component-library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shelbyvjacobs/game-meetup-component-library/issues"
+  },
+  "homepage": "https://github.com/shelbyvjacobs/game-meetup-component-library#readme"
 }
