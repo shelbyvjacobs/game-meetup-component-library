@@ -1,0 +1,22 @@
+.nav {
+    height: 100px;
+    width: 100vw;
+    background-color: #FCC133;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.header {
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-size: 60px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
