@@ -1,7 +1,7 @@
 # game-meetup-component-library
 
 ### Description
-This is the component library for the [Board Game Meetup app](https://lucid-noether-312707.netlify.com), built using React, CSS, and Storybook. The components included in the library are buttons, maps, a "join meetup" form, and forms for creating, editing, and deleting meetup posts.
+This is the component library for the [Board Game Meetup app](https://lucid-noether-312707.netlify.com), built using React, CSS, and Storybook. The components included in the library are buttons, maps, and forms for creating, editing, joining, and deleting meetup posts.
 
 [DEPLOYED VERSION](https://boring-goldwasser-48aa00.netlify.com)
 
