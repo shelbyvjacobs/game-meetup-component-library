@@ -1,0 +1,9 @@
+.warning {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 20px 0 0 0;
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 3px solid #FCC133;
+}
