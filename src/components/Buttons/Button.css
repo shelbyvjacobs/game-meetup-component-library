@@ -1,23 +1,12 @@
-button {
-    padding: 5px 25px;
-    color: white;
-    border-radius: 4px;
-}
-
-.button-primary {
-    background-color: grey;
-    border: grey;
-}
-
-.button-primary:hover {
-    background-color: dimgray;
-    border: dimgray;
-}
-
-.button-medium {
-    padding: 7px 35px;
-}
-
-.button-large {
+.button {
     padding: 10px 50px;
+    margin: 10px 0px;
+    border-radius: 4px;
+    background-color: #FCC133;
+    max-width: 150px;
+}
+
+.button:hover {
+    background-color: #dba82e;
+    cursor: pointer;
 }
