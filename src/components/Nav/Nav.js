@@ -7,10 +7,12 @@ const Nav= (props) => {
     classList += `${props.type}`
     return(
         <div className={classList}>
-            <h1 className="header">Game On</h1>
+            <h1 className="header">bgm.</h1>
             <a href="#" className="link">Meetups</a>
         </div>
     )
 }
 
 export default Nav;
+
+
